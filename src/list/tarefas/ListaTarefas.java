@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 
 public class ListaTarefas {
 
-    List<Tarefa> tarefaList;
+    private List<Tarefa> tarefaList;
 
     public ListaTarefas() {
         this.tarefaList = new ArrayList<>();
@@ -24,8 +24,7 @@ public class ListaTarefas {
         return tarefaList.size();
     }
 
-    public List<String> obterDescricoesTarefas(){
-        return tarefaList.stream().map(Tarefa::getDescricao).collect(Collectors.toList());
+    public void obterDescricoesTarefas(){
+        System.out.println(tarefaList);
     }
-
 }

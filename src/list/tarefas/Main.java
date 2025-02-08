@@ -1,6 +1,4 @@
-package list;
-
-import list.tarefas.ListaTarefas;
+package list.tarefas;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,9 +10,9 @@ public class Main {
         listaTarefas.adicionarTarefa("Estudar React");
         System.out.println("Total de tarefas:");
         System.out.println(listaTarefas.obterTotalTarefas());
-        System.out.println(listaTarefas.obterDescricoesTarefas());
+        listaTarefas.obterDescricoesTarefas();
         listaTarefas.removerTarefa("Estudar React");
-        System.out.println(listaTarefas.obterDescricoesTarefas());
+        listaTarefas.obterDescricoesTarefas();
         System.out.println("Total de tarefas:");
         System.out.println(listaTarefas.obterTotalTarefas());
     }
