@@ -1,8 +1,7 @@
-package list.livros;
+package list.pesquisa;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class CatalagoLivros {
     private List<Livro> catalogo;

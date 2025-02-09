@@ -1,4 +1,4 @@
-package list.livros;
+package list.pesquisa;
 
 public class Main {
     public static void main(String[] args) {

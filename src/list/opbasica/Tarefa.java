@@ -1,4 +1,4 @@
-package list.tarefas;
+package list.opbasica;
 
 public class Tarefa {
 

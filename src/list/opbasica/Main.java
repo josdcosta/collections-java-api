@@ -1,4 +1,4 @@
-package list.tarefas;
+package list.opbasica;
 
 public class Main {
     public static void main(String[] args) {
